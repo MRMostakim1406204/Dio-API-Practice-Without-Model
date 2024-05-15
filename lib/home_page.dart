@@ -12,7 +12,6 @@ class _HomePageState extends State<HomePage> {
   Future<List<dynamic>> fetchAPI() async {
     Dio dio = Dio();
     var response = await dio.get("https://jsonplaceholder.typicode.com/users");
-    print(response.data.toString());
     return response.data;
   }
 

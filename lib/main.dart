@@ -1,4 +1,5 @@
-import 'package:dio_api_practice/home_page.dart';
+import 'package:dio_api_practice/dio_api_practise.dart';
+import 'package:dio_api_practice/http_api_practise2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:  HomePage(),
+      home:  DioAPIPractise(),
     );
   }
 }
